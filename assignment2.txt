@@ -1,0 +1,15 @@
+Representational State Transfer (REST) is an architectural style for web-based communication 
+that permits clients to talk to servers in a unique fashion. In particular, REST represents
+ resources within a given server as uniform resource identifiers (URIs), simplifying the implementation 
+of REST architectures on the Hypertext Transport Protocol (HTTP). Let's begin with an introduction to
+ the ideas behind REST and HTTP. We'll then explore data representation, and then implement a simple
+ REST client in the Ruby language.
+
+Quick introduction to HTTP
+
+Let's start with a quick introduction to HTTP, as it's important to understand for individual
+ REST transactions. Although HTTP is the foundational communication protocol that connects web
+ browsers to servers, HTTP is a useful protocol for transferring many types of data other than HTML.
+HTTP is a request-and-response protocol—that is, clients make requests, and servers satisfy those
+ requests with a response. The actual protocol for HTTP is quite readable to humans, and to 
+demonstrate HTTP, I use telnet to make a request to a web server.
